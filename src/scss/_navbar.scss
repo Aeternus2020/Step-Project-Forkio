@@ -1,9 +1,12 @@
+.navbar1 {
+    width: 100%;
+}
+
 .navbar {
     background-color: $color-black;
     margin: 0 auto;
     display: flex;
     position: absolute;
-    width: 100%;
     justify-content: space-between;
     align-items: center;
     padding: 30px 90px;
@@ -57,11 +60,10 @@
         &__list {
             list-style: none;
             display: flex;
-            width: 527px;
             gap: 50px;
             align-items: center;
             margin: 0;
-            padding: 0 0 0 140px;
+            margin: 0 0 0 20%;
             white-space: nowrap;
             justify-content: space-between;
             @include font(('Montserrat', sans-serif), normal, 700, 16px, 15px);
@@ -92,7 +94,7 @@
         }
         &__button {
             @include font(('Montserrat', sans-serif), normal, 700, 16px, 17px);
-            width: 145px;
+            min-width: 145px;
             height: 37px;
             transition: 1s;
             @media (max-width: $medium-screen-width) {
@@ -147,6 +149,7 @@
             }
         }
     }
+    &__wrapper {}
 }
 
 .active {
