@@ -51,11 +51,7 @@
   }
   &__description {
     font-size: 14px;
-<<<<<<< Updated upstream
-    color: #848e97;
-=======
     color: $color-grey;
->>>>>>> Stashed changes
     line-height: 1.5;
     @media screen and (max-width: $small-screen-width) {
       @include lato-font;
