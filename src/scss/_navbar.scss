@@ -1,15 +1,21 @@
 .navbar1 {
     width: 100%;
+    position: absolute;
+}
+
+.navbar__menu {
+    display: flex;
+    gap: 38px;
 }
 
 .navbar {
     background-color: $color-black;
     margin: 0 auto;
+    width: 100%;
     display: flex;
-    position: absolute;
     justify-content: space-between;
     align-items: center;
-    padding: 30px 90px;
+    padding: 30px 20px;
     line-height: 17px;
     @media (max-width: $medium-screen-width){
         background-color: #27262A;
@@ -57,14 +63,13 @@
         }
     }
     &__menu {
+        white-space: nowrap;
         &__list {
             list-style: none;
             display: flex;
-            gap: 50px;
+            gap: 45px;
             align-items: center;
             margin: 0;
-            margin: 0 0 0 20%;
-            white-space: nowrap;
             justify-content: space-between;
             @include font(('Montserrat', sans-serif), normal, 700, 16px, 15px);
             @media (max-width: $medium-screen-width) {
@@ -94,8 +99,8 @@
         }
         &__button {
             @include font(('Montserrat', sans-serif), normal, 700, 16px, 17px);
-            min-width: 145px;
-            height: 37px;
+            text-align: center;
+            padding: 11px 40px;
             transition: 1s;
             @media (max-width: $medium-screen-width) {
                 position: absolute;
@@ -104,9 +109,11 @@
                 line-height: 16px;
             }
             @media (max-width: $small-screen-width) {
+                @include font(('Montserrat', sans-serif), normal, 700, 15px, 15px);
                 position: absolute;
                 top: 34px;
-                width: 119px;
+                padding: 11px 10px;
+                max-width: 119px;
                 left: calc(50% - 55px);
                 line-height: 18px;
             }
@@ -126,7 +133,7 @@
                 display: block;
                 background-color: #27262A;
                 color: $color-white;
-                left: 120%;
+                left: 40%;
                 position: relative;
                 border: none;
                 height: 40px;
