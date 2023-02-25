@@ -11,7 +11,7 @@ $border-radius: 2px;
     padding-top: $vertical-padding;
     padding-bottom: $vertical-padding;
     vertical-align: bottom;
-    border: 1px solid rgba(132, 142, 151, 1);
+    border: 1px solid $color-grey;
     &:first-child {
       border-top-left-radius: $border-radius;
       border-bottom-left-radius: $border-radius;
@@ -27,11 +27,10 @@ $border-radius: 2px;
     padding-right: 10px;
     padding-left: 5px;
     min-width: 35px;
-    background: linear-gradient(
-      0deg,
-      rgba(244, 244, 244, 1) 0%,
-      rgba(255, 255, 255, 1) 120%
-    );
+    background: linear-gradient(180deg, $color-white 50%, #f4f4f4 70%);
+    &:hover {
+      background: $color-white;
+    }
   }
   &__counter {
     background-color: #fff;
