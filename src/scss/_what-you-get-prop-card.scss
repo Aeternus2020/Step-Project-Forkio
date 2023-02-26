@@ -46,12 +46,12 @@
       padding-bottom: 9px;
     }
     @media screen and (max-width: $small-screen-width) {
-      padding-bottom: 14px;
+      padding-bottom: 12px;
     }
   }
   &__description {
     font-size: 14px;
-    color: #848e97;
+    color: $color-grey;
     line-height: 1.5;
     @media screen and (max-width: $small-screen-width) {
       @include lato-font;
