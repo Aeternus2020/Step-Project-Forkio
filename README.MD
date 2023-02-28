@@ -3,7 +3,7 @@
 Created by: [Olena Hodyna](https://gitlab.com/Aeternus22) and [Eugene Emets](https://gitlab.com/expero1)
 
 [repository](https://gitlab.com/expero1/step-project-forkio)
-[GitHub Pages]()
+[GitLab Pages](https://expero1.gitlab.io/step-project-forkio/)
 ## Technologies used:
 
 ### The page uses:
