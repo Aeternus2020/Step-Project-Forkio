@@ -1,11 +1,6 @@
-.navbar1 {
+.navbar-shell {
     width: 100%;
     position: absolute;
-}
-
-.navbar__menu {
-    display: flex;
-    gap: 38px;
 }
 
 .navbar {
@@ -63,6 +58,8 @@
         }
     }
     &__menu {
+        display: flex;
+        gap: 38px;
         white-space: nowrap;
         &__list {
             list-style: none;
@@ -102,6 +99,7 @@
             text-align: center;
             padding: 11px 40px;
             transition: 1s;
+            border: 2px solid $color-purple;
             @media (max-width: $medium-screen-width) {
                 position: absolute;
                 right: 15px;
@@ -133,7 +131,7 @@
                 display: block;
                 background-color: #27262A;
                 color: $color-white;
-                left: 40%;
+                left: 85px;
                 position: relative;
                 border: none;
                 height: 40px;
@@ -156,7 +154,6 @@
             }
         }
     }
-    &__wrapper {}
 }
 
 .active {
