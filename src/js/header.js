@@ -1,9 +1,9 @@
 'use strict';
 
-const burger = document.getElementById('burger');
 const navbar = document.querySelector('.navbar__menu__list');
 const toggle = document.querySelectorAll('.navbar__button__burger-toggle');
 
+//Open/hide burger menu
 function showMenu() {
     toggle.forEach(elem => {
         if(elem.style.opacity === '1') {
@@ -16,9 +16,9 @@ function showMenu() {
     })
 }
 
-window.addEventListener("click", (e) => {
-    let trg = e.target;
-    if (burger.contains(trg)) {
+//Hide menu when clicking outside burger menu
+window.addEventListener("click", (event) => {
+    if (document.getElementById('burger').contains(event.target)) {
         showMenu();
     } else if (!navbar.contains(trg)) {
         navbar.classList.remove('active');

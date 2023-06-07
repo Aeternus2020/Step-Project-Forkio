@@ -13,7 +13,8 @@
 </head>
 
 <body>
-	<navbar class="navbar-shell">
+	<header class="header" id="overview">
+    <nav class="navbar-shell">
     <div class="navbar wrapper">
         <a href="#" class="navbar__logo">
             <div class="navbar__logo__svg"></div>           
@@ -21,10 +22,10 @@
         </a>
         <div class="navbar__menu">
             <ul class="navbar__menu__list">
-                <li class="navbar__menu__elem"><a class="navbar__menu__link" href="#">Overview</a></li>
+                <li class="navbar__menu__elem"><a class="navbar__menu__link" href="#overview">Overview</a></li>
                 <li class="navbar__menu__elem"><a class="navbar__menu__link" href="#about">About Fork</a></li>
+                <li class="navbar__menu__elem"><a class="navbar__menu__link" href="#testimonials">Testimonials</a></li>
                 <li class="navbar__menu__elem"><a class="navbar__menu__link" href="#options">Buying Options</a></li>
-                <li class="navbar__menu__elem"><a class="navbar__menu__link" href="#support">Support</a></li>
             </ul>
             <button class="navbar__menu__button action-button">Buy Now</button>
         </div>
@@ -33,8 +34,7 @@
         <span class="navbar__button__burger-toggle" style="opacity: 0">&times;</span>
     </button>
     </div>
-</navbar>
-	<header class="header">
+</nav>
     <figure class="header__figure">
         <h1 class="header__figure__title">Fork App</h1>
         <span class="header__figure__main">A real gamechanger in the world of web development</span>
@@ -45,7 +45,7 @@
         <div class="header__button__description">Unlimited 30-Days Trial Period</div>
     </div>
 </header>
-	<section class="rev-editor wrapper">
+	<section class="rev-editor wrapper" id="about">
 	<h2 class="section-header rev-editor__header">
 		Revolutionary editor
 	</h2>
@@ -71,34 +71,34 @@
 	<span class="prop-card__icon--wrapper">
 		<img class="prop-card__icon" src=".//img/what-you-get/web-page-icon.png" alt="web page icon" />
 	</span>
-	<span class="prop-card__content--wrapper">
+	<div class="prop-card__content--wrapper">
 		<h3 class="prop-card__header">Creatred to Make The Web Better</h3>
 		<p class="prop-card__description">Aenean cursus imperdiet nisl id fermentum. Aliquam pharetra dui laoreet vulputate dignissim. Sed id metus id quam auctor molestie eget ut augue.</p>
-	</span>
+	</div>
 </div><div class="prop-card">
 	<span class="prop-card__icon--wrapper">
 		<img class="prop-card__icon" src=".//img/what-you-get/volume-icon.png" alt="web page icon" />
 	</span>
-	<span class="prop-card__content--wrapper">
+	<div class="prop-card__content--wrapper">
 		<h3 class="prop-card__header">Incredibly Powerful Tool</h3>
 		<p class="prop-card__description">Maecenas eu dictum felis, a dignissim nibh. Mauris rhoncus felis odio, ut volutpat massa placerat ac. Curabitur dapibus iaculis mi gravida luctus. Aliquam erat volutpat.</p>
-	</span>
+	</div>
 </div><div class="prop-card">
 	<span class="prop-card__icon--wrapper">
 		<img class="prop-card__icon" src=".//img/what-you-get/experimental-icon.png" alt="web page icon" />
 	</span>
-	<span class="prop-card__content--wrapper">
+	<div class="prop-card__content--wrapper">
 		<h3 class="prop-card__header">Experimental Stuff</h3>
 		<p class="prop-card__description">Maecenas eu dictum felis, a dignissim nibh. Mauris rhoncus felis odio, ut volutpat massa placerat ac. Curabitur dapibus iaculis mi gravida luctus. Aliquam erat volutpat.</p>
-	</span>
+	</div>
 </div><div class="prop-card">
 	<span class="prop-card__icon--wrapper">
 		<img class="prop-card__icon" src=".//img/what-you-get/time-icon.png" alt="web page icon" />
 	</span>
-	<span class="prop-card__content--wrapper">
+	<div class="prop-card__content--wrapper">
 		<h3 class="prop-card__header">Creatred to Make The Web Better</h3>
 		<p class="prop-card__description">Maecenas eu dictum felis, a dignissim nibh. Mauris rhoncus felis odio, ut volutpat massa placerat ac. Curabitur dapibus iaculis mi gravida luctus. Aliquam erat volutpat.</p>
-	</span>
+	</div>
 </div>
 
 		</div>
@@ -107,7 +107,7 @@
 
 	</div>
 </section>
-	<section class="testimonials">
+	<section class="testimonials" id="testimonials">
     <div class="wrapper">
         <div class="testimonials__title">People Are Talking About Fork</div>
         <ul class="testimonials__main__list">
@@ -191,7 +191,7 @@
     <div class="testimonials__description">Duis lobortis arcu sed arcu tincidunt feugiat. Nulla nisi mauris, facilisis vitae aliquet id, imperdiet quis nibh. Donec eget elit eu libero tincidunt consequat nec elementum orci. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</div>
     </div>
 </section>
-	<section class="price">
+	<section class="price" id="options">
 	<div class="wrapper">
 		<h2 class="section-header price__header">Fork Subscription Pricing</h2>
 		<div class="price-cards">

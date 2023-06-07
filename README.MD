@@ -1,9 +1,9 @@
-# Step Project 2 by Olena Hodyna and Eugene Emets, DAN IT FE 14 Online Advanced HTML/CSS Course
+# Step Project Forkio by Olena Hodyna and Eugene Emets
 
-Created by: [Olena Hodyna](https://gitlab.com/Aeternus22) and [Eugene Emets](https://gitlab.com/expero1)
+Created by: [Olena Hodyna](https://github.com/Aeternus2020) and [Eugene Emets](https://gitlab.com/expero1)
 
-[repository](https://gitlab.com/expero1/step-project-forkio)
-[GitLab Pages](https://expero1.gitlab.io/step-project-forkio/)
+[repository](https://github.com/Aeternus2020/Step-Project-Forkio)
+[Pages](https://step-project-forkio-nu.vercel.app/)
 ## Technologies used:
 
 ### The page uses:

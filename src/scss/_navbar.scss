@@ -1,5 +1,6 @@
 .navbar-shell {
     width: 100%;
+    min-width: 320px;
     position: absolute;
 }
 
@@ -10,7 +11,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 30px 20px;
+    padding: 30px 10px;
     line-height: 17px;
     @media (max-width: $medium-screen-width){
         background-color: #27262A;
@@ -42,7 +43,7 @@
         }
         &__title {
             margin: 0 0 5px 17px;
-            @include font(('Lato', sans-serif), normal, 700, 24px, 16px);
+            @include font(('Lato', sans-serif), normal, 700, 1.5rem, 1rem);
                 transition: 1s;
             @media (max-width: $small-screen-width) {
                 display: none;
@@ -68,7 +69,7 @@
             align-items: center;
             margin: 0;
             justify-content: space-between;
-            @include font(('Montserrat', sans-serif), normal, 700, 16px, 15px);
+            @include font(('Montserrat', sans-serif), normal, 700, 1rem, 1rem);
             @media (max-width: $medium-screen-width) {
                 position: absolute;
                 padding: 0 0 0 40px;
@@ -79,7 +80,7 @@
                 max-width: 300px;
             }
             @media (max-width: 600px) {
-                gap: 10%;
+                gap: 5%;
                 left: calc(50% - 260px);
             }
             @media (max-width: $small-screen-width) {
@@ -95,7 +96,7 @@
             }
         }
         &__button {
-            @include font(('Montserrat', sans-serif), normal, 700, 16px, 17px);
+            @include font(('Montserrat', sans-serif), normal, 700, 1rem, 1rem);
             text-align: center;
             padding: 11px 40px;
             transition: 1s;
@@ -107,7 +108,7 @@
                 line-height: 16px;
             }
             @media (max-width: $small-screen-width) {
-                @include font(('Montserrat', sans-serif), normal, 700, 15px, 15px);
+                @include font(('Montserrat', sans-serif), normal, 700, 1rem, 1rem);
                 position: absolute;
                 top: 34px;
                 padding: 11px 10px;
@@ -136,7 +137,7 @@
                 border: none;
                 height: 40px;
                 width: 40px;
-                @include font(('Lato', sans-serif), normal, 900, 30px, 10px);
+                @include font(('Lato', sans-serif), normal, 900, 2rem, 0.6rem);
                 text-align: end;
             }
             &-toggle {
@@ -147,9 +148,9 @@
                     top: 0;
                 }
                 &:nth-child(2) {
-                    font-size: 50px;
-                    top: 15px;
-                    left: 10px;
+                    font-size: 3rem;
+                    top: 10px;
+                    left: 12px;
                 }
             }
         }
@@ -158,7 +159,7 @@
 
 .active {
     @media (max-width: $small-screen-width) {
-        @include font(('Montserrat', sans-serif), normal, 400, 26px, 26px);
+        @include font(('Montserrat', sans-serif), normal, 400, 1.6rem, 1.6rem);
         display: flex;
         flex-direction: column;
         padding: 0;

@@ -15,7 +15,6 @@
         align-items: center;
         gap: 19px;
         margin: 0;
-        padding: 0;
         @media (max-width: $medium-screen-width) {
             top: 180px;
         }
@@ -25,31 +24,31 @@
         }
         &__title {
             color: $color-white;
-            @include font(('Montserrat', sans-serif), normal, 700, 82px, 82px);
+            @include font(('Montserrat', sans-serif), normal, 700, 5rem, 5rem);
             @media (max-width: $medium-screen-width) {
-                @include font(('Montserrat', sans-serif), normal, 700, 72px, 72px);
+                @include font(('Montserrat', sans-serif), normal, 700, 4.5rem, 4.5rem);
             }
             @media (max-width: $small-screen-width) {
-                @include font(('Montserrat', sans-serif), normal, 700, 48px, 48px);
+                @include font(('Montserrat', sans-serif), normal, 700, 3rem, 3rem);
             }
         }
         &__main {
             color: $color-purple;
-            @include font(('Lato', sans-serif), normal, 400, 30px, 30px);
+            @include font(('Lato', sans-serif), normal, 400, 2rem, 2rem);
             text-align: center;
             @media (max-width: $medium-screen-width) {
-                @include font(('Lato', sans-serif), normal, 400, 24px, 24px);
+                @include font(('Lato', sans-serif), normal, 400, 1.5rem, 1.5rem);
                 margin: 0 20px;
             }
             @media (max-width: $small-screen-width) {
-                @include font(('Lato', sans-serif), normal, 400, 18px, 24px);
+                @include font(('Lato', sans-serif), normal, 400, 1.5rem, 1.5rem);
             }
         }
         &__paragraph {
             color: $color-grey;
-            @include font(('Montserrat', sans-serif), normal, 400, 16px, 16px);
+            @include font(('Montserrat', sans-serif), normal, 400, 1rem, 1rem);
             @media (max-width: $medium-screen-width) {
-                @include font(('Lato', sans-serif), normal, 400, 14px, 14px);
+                @include font(('Lato', sans-serif), normal, 400, 0.8rem, 0.8rem);
             }
         }
     }
@@ -60,27 +59,26 @@
         }
     }
     &__button {
-        @include font(('Montserrat', sans-serif), normal, 700, 21px, 22px);
+        @include font(('Montserrat', sans-serif), normal, 700, 21px, 1.3rem);
         width: 390px;
         height: 62px;
         @media (max-width: $medium-screen-width) {
             line-height: 22px;
         }
         @media (max-width: $small-screen-width) {
-            @include font(('Montserrat', sans-serif), normal, 700, 18px, 20px);
+            @include font(('Montserrat', sans-serif), normal, 700, 18px, 1.2rem);
             width: 290px;
             height: 45px
         }
         &__description {
             text-align: center;
             color: $color-grey;
-            @include font(('Montserrat', sans-serif), normal, 400, 14px, 15px);
                 margin: 19px;
             @media (max-width: $medium-screen-width) {
                 line-height: 16px;
             }
             @media (max-width: $small-screen-width) {
-                @include font(('Montserrat', sans-serif), normal, 400, 14px, 14px);
+                @include font(('Montserrat', sans-serif), normal, 400, 0.8rem, 0.8rem);
             }
         }
     }
