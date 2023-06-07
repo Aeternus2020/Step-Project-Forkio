@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Step Project 2 by Olena Hodyna and Eugene Emets, DAN IT FE 14 Online Advanced HTML/CSS Course",
   "main": "gulpfile.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "gulp build",
@@ -12,7 +13,6 @@
     "type": "git",
     "url": "git+https://gitlab.com/expero1/step-project-forkio.git"
   },
-  "type": "module",
   "devDependencies": {
     "browser-sync": "^2.27.11",
     "del": "^7.0.0",
