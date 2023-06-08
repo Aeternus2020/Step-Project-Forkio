@@ -1,9 +1,8 @@
-
 {
   "name": "step-project-forkio",
   "version": "1.0.0",
   "description": "Step Project 2 by Olena Hodyna and Eugene Emets, DAN IT FE 14 Online Advanced HTML/CSS Course",
-  "main": "gulpfile.js",
+  "main": "gulpfile.mjs",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "gulp build",
@@ -16,6 +15,7 @@
   "type": "module",
   "devDependencies": {
     "browser-sync": "^2.27.11",
+    "chokidar": "^3.5.3",
     "del": "^7.0.0",
     "gulp": "^4.0.2",
     "gulp-autoprefixer": "^8.0.0",
@@ -34,6 +34,8 @@
     "gulp-sass": "^5.1.0",
     "gulp-sourcemaps": "^3.0.0",
     "gulp-uglify": "^3.0.2",
-    "sass": "^1.58.0"
+    "plugin-error": "^2.0.1",
+    "sass": "^1.58.0",
+    "uuid": "^9.0.0"
   }
 }
