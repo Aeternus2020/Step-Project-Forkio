@@ -1,10 +1,9 @@
+
 {
   "name": "step-project-forkio",
   "version": "1.0.0",
-  "type": "module",
-  "license": "MIT",
   "description": "Step Project 2 by Olena Hodyna and Eugene Emets, DAN IT FE 14 Online Advanced HTML/CSS Course",
-  "main": "gulpfile.mjs",
+  "main": "gulpfile.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "gulp build",
@@ -14,6 +13,7 @@
     "type": "git",
     "url": "git+https://gitlab.com/expero1/step-project-forkio.git"
   },
+  "type": "module",
   "devDependencies": {
     "browser-sync": "^2.27.11",
     "del": "^7.0.0",
@@ -35,15 +35,5 @@
     "gulp-sourcemaps": "^3.0.0",
     "gulp-uglify": "^3.0.2",
     "sass": "^1.58.0"
-  },
-  "builds": [
-    {
-      "src": "package.json",
-      "use": "@vercel/static-build",
-      "config": {
-        "output": "dist"
-      }
-    }
-  ]
-  
+  }
 }
