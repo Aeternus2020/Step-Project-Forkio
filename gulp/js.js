@@ -22,7 +22,7 @@ export function jsDev() {
   return (
     src(path.src.js, { allowEmpty: true })
       .pipe(showAlertMessage("JS"))
-      .pipe(concat("script.mjs"))
+      .pipe(concat("script.min.js"))
       .pipe(sourcemaps.init())
       // .pipe(uglify())
       // .pipe(

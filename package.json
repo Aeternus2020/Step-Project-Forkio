@@ -1,9 +1,10 @@
 {
   "name": "step-project-forkio",
   "version": "1.0.0",
-  "description": "Step Project 2 by Olena Hodyna and Eugene Emets, DAN IT FE 14 Online Advanced HTML/CSS Course",
-  "main": "gulpfile.js",
   "type": "module",
+  "license": "MIT",
+  "description": "Step Project 2 by Olena Hodyna and Eugene Emets, DAN IT FE 14 Online Advanced HTML/CSS Course",
+  "main": "gulpfile.mjs",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "gulp build",
@@ -44,4 +45,5 @@
       }
     }
   ]
+  
 }
