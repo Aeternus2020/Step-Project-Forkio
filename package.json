@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://gitlab.com/expero1/step-project-forkio.git"
+    "url": "git+https://github.com/Aeternus2020"
   },
   "type": "module",
   "devDependencies": {

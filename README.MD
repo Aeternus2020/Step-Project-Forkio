@@ -11,6 +11,8 @@ Created by: [Olena Hodyna](https://github.com/Aeternus2020) and [Eugene Emets](h
 - HTML
 - CSS
 - JavaScript
+- BEM
+- GRID and Flexbox
 
 ### Project build:
 
@@ -22,8 +24,8 @@ Created by: [Olena Hodyna](https://github.com/Aeternus2020) and [Eugene Emets](h
 - git
 - node
 - npm
-- gitlab
-- github pages
+- github
+- versel page
 ---
 ## Completed tasks:
 
